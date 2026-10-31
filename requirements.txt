@@ -1,0 +1,5 @@
+mcp
+httpx
+# 2.x adds a ~250 MB layout-analysis stack (onnxruntime, numpy, ...) that this server doesn't use
+pymupdf>=1.24.3,<2
+keyring
